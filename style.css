@@ -1,3 +1,8 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
 .title {
   color: rgba(101,134,177,0.8);
   width: 550px;
@@ -28,4 +33,35 @@ textarea {
   content: "";
   display: block;
   clear: both;
+}
+
+.k-key {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px ;
+  border: 1px solid black;
+  margin: 3px;
+  padding: 3px;
+  float: left;
+}
+
+.k-key:hover {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px ;
+  border: 2px solid rgb(213, 17, 17);
+  margin: 3px;
+  padding: 3px;
+  float: left;
+  cursor: pointer;
+}
+
+.clearfix {
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.active {
+  background: #1acd14;
 }
